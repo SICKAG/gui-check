@@ -1,4 +1,4 @@
 gui-check
 ========
 
-UI testing library for Java
+UI testing library for Java test
