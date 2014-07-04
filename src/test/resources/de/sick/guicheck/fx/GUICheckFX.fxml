@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<BorderPane id="BorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="432.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="de.sick.guicheck.fx.GcFxTestController">
+  <center>
+    <FlowPane prefHeight="400.0" prefWidth="619.0">
+      <children>
+        <Button id="button1" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="1" />
+        <Button id="button2" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="2" />
+        <Button id="button3" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="3" />
+        <Button id="button4" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="4" />
+        <Button id="button5" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="5" />
+        <Button id="button6" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="6" />
+        <Button id="button7" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="7" />
+        <Button id="button8" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="8" />
+        <Button id="button9" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="9" />
+        <Button id="button10" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="10" />
+        <Button id="button11" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="11" />
+        <Button id="button12" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="12" />
+        <Button id="button13" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="13" />
+        <Button id="button14" mnemonicParsing="false" onAction="#onOpenDialog" prefHeight="100.0" prefWidth="100.0" text="14" />
+        <Button id="button15" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="15" />
+        <Button id="button16" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="16" />
+        <Button id="button17" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="17" />
+        <Button id="button18" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="18" />
+        <Button id="button19" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="19" />
+        <Button id="button20" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="20" />
+        <Button id="button21" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="21" />
+        <Button id="button22" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="22" />
+        <Button id="button23" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="23" />
+        <Button id="button24" mnemonicParsing="false" onAction="#onButtonAction" prefHeight="100.0" prefWidth="100.0" text="24" />
+        <TextField id="text1" prefWidth="300.0" />
+        <TextField id="text2" prefWidth="300.0" />
+      </children>
+    </FlowPane>
+  </center>
+  <top>
+    <MenuBar id="menubar">
+      <menus>
+        <Menu id="file" mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem disable="false" id="close" mnemonicParsing="false" onAction="#onFileCloseAction" text="Close" />
+          </items>
+        </Menu>
+        <Menu id="edit" mnemonicParsing="false" text="Edit">
+          <items>
+            <MenuItem id="delete" mnemonicParsing="false" text="Delete" />
+          </items>
+        </Menu>
+        <Menu id="device" mnemonicParsing="false" text="Device">
+          <items>
+            <MenuItem disable="true" id="export" mnemonicParsing="false" text="Export" />
+          </items>
+        </Menu>
+        <Menu id="help" mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+  </top>
+</BorderPane>

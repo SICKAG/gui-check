@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>de.sick.sopas</groupId>
+		<artifactId>et-parent</artifactId>
+		<version>trunk-SNAPSHOT</version>
+	</parent>
+	<artifactId>gui-check</artifactId>
+	<name>GUI Check</name>
+	<description>Test framework for GUIs.</description>
+	<dependencies>
+		<dependency>
+			<groupId>javafx</groupId>
+			<artifactId>jfxrt</artifactId>
+		</dependency>
+	</dependencies>
+</project>
