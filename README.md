@@ -40,7 +40,13 @@ public class FirstFXApp extends Application
     }
 }
 ```
-The first test working on the above application.
+Our first test does the following:
+- starts the application above
+- retrieves the stage by title
+- checks the title
+- finds the button by ID
+- moves the mouse to the center of the button
+- and clicks the mouse
 ```java
 package de.sick.guicheck;
 
