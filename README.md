@@ -41,7 +41,7 @@ public class FirstFXApp extends Application
 }
 ```
 Our first test does the following:
-- starts the application above
+- it starts the application above
 - retrieves the stage by title
 - checks the title
 - finds the button by ID
